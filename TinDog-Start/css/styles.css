@@ -8,6 +8,12 @@ h1 {  font-family: "Montserrat-Black";
 h3{
 font-family: Montserrat-bold;
 }
+
+h2{
+    font-family: "Montserrat-Black";
+    font-size: 3rem;
+    line-height: 1.5;
+}
     
 p{
     color: #8f8f8f;
@@ -53,6 +59,12 @@ body{
     width: 50%;
     transform: rotate(30deg);
 }
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+
+}
 
 /* Feature*/
 
@@ -71,4 +83,30 @@ body{
 
 .icon:hover{
     color: #ff4c68;
+}
+
+
+/*
+
+Testimonial
+
+
+*/
+
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
 }
