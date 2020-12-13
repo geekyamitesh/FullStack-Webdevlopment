@@ -1,3 +1,8 @@
+/*
+1. bootsniping
+
+
+*/
 h1 {  font-family: "Montserrat-Black";  
     font-size: 4.5rem; 
      line-height: 1.5; 
@@ -58,6 +63,7 @@ body{
 .title-image{
     width: 50%;
     transform: rotate(30deg);
+    position: absolute;
 }
 .testimonial-image{
     width: 10%;
@@ -70,6 +76,9 @@ body{
 
 #features{
     padding: 7% 15%;
+    background-color: #fff;
+    position: absolute;
+    z-index: 1;
 }
 .features-box{
     padding: 5%;
@@ -94,7 +103,6 @@ Testimonial
 */
 
 #testimonials{
-    padding: 7% 15%;
     text-align: center;
     background-color: #ef8172;
     color: #fff;
@@ -109,4 +117,19 @@ Testimonial
 .press-logo{
     width: 15%;
     margin: 20px 20px 50px;
+}
+.testinomial-carousel{
+    padding: 7% 15%;
+
+}
+
+/*  pricing section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3%;
 }
