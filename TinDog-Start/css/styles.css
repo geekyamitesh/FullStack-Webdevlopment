@@ -64,6 +64,7 @@ body{
     width: 50%;
     transform: rotate(30deg);
     position: absolute;
+    right: 20%;
 }
 .testimonial-image{
     width: 10%;
